@@ -1,0 +1,29 @@
+{
+  "name": "minesweeperjs-solver",
+  "version": "1.0.2",
+  "description": "",
+  "main": "dist/minesweeperjs-solver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development",
+    "build:prod": "webpack --mode=production",
+    "lint": "eslint --fix src"
+  },
+  "keywords": [
+    "minesweeper",
+    "game",
+    "solver"
+  ],
+  "author": "Adrian Flannery",
+  "homepage": "https://github.com/finnor/MinesweeperJS-Solver#readme",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/finnor/MinesweeperJS-Solver.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0"
+  }
+}
