@@ -7,6 +7,5 @@ module.exports = {
     filename: 'minesweeperjs-solver.js',
     library: 'minesweeperjs-solver',
     libraryTarget: 'umd'
-  },
-  target: 'node'
+  }
 };
